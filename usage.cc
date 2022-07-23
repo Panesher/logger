@@ -10,7 +10,6 @@ void call_loger(int a) {
 }
 
 int main() {
-  SET_LOG_LEVEL_VERBOSITY(DEBUG);
   // SET_LOG_LEVEL_VERBOSITY(155); would LOG(ERROR)
   // SET_LOG_LEVEL_VERBOSITY(DEBUG); would LOG(ERROR)
   call_loger(1);
